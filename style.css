@@ -1,0 +1,68 @@
+
+img{
+    display: block; 
+    margin: 0 auto;
+    border-radius: 50%;
+    height: 80vh;
+    width: auto;
+    }
+
+body {
+    background-color: rgb(13, 58, 110);
+    
+}
+
+div {
+    text-align: center;
+    margin: 15px;
+    font-size: 23px;
+    color: white;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 40px;
+    padding: 30px, 20px;
+    background-color: rgb(224, 83, 83);   
+}
+
+@font-face {
+    font-family: Font1;
+    src: url(fonts/TheSadTrainRegular-VGd3V.ttf);
+}
+
+@font-face {
+    font-family: Font2;
+    src: url(fonts/FaseBulan-BW633.otf);
+}
+
+@font-face {
+    font-family: Font3;
+    src: url(fonts/Panicstricken-8zgD.ttf);
+}
+
+h1, p {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+.font1 {
+    font-family: Font1;
+    font-size: 40px;
+}
+
+.font2 {
+    font-family:Font2;
+    
+}
+
+.font3 {
+    font-family: Font3;
+    font-size: 30px;
+    font-style: bold;
+    color: black;
+}
+
